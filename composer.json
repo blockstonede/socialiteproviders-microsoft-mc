@@ -1,0 +1,36 @@
+{
+    "name": "blockstonede/socialiteproviders-microsoft-mc",
+    "description": "Microsoft Minecraft OAuth2 Provider for Laravel Socialite",
+    "keywords": [
+        "laravel",
+        "microsoft",
+        "oauth",
+        "provider",
+        "socialite",
+        "minecraft"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@brianfaust.de"
+        },
+        {
+            "name": "BlockStoneDE",
+            "email": "admin@blockstone.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Microsoft\\": ""
+        }
+    },
+    "support": {
+        "docs": "https://socialiteproviders.com/microsoft"
+    }
+}
